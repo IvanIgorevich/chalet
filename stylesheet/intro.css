@@ -1,0 +1,23 @@
+.intro {
+	background-color: rgba(0, 0, 0, 0);
+	background-image: linear-gradient(rgba(138, 186, 86, 1), rgba(138, 186, 86, 0.5) 1%),
+	url("../foto/20211217_163804.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll, fixed;
+	background-position: 0 0%, center top;
+
+	color: #fff;
+	padding: 150px;
+	margin-top: 76px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.intro .text-lead {
+	color: black;
+	max-width: 70%;
+	margin: 0 15%;
+}

@@ -1,0 +1,35 @@
+.column-1-2 {
+	float: left;
+	width: 50%;
+}
+
+.reviews {
+	padding: 40px 0;
+	background: #eee;
+}
+
+.reviews-members {
+	padding-top: 40px;
+}
+
+.member-image {
+	display: inline-block;
+	float: left;
+	width: 160px;
+}
+
+.member-foto {
+	border: 5px solid #fff;
+	border-radius: 10px;
+	height: 150px;
+}
+
+.member-details {
+	display: inline-block;
+	max-width: 270px;
+	margin-left: 20px;
+}
+
+.member-details .title-small {
+	color: #ff2a68;
+}

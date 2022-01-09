@@ -1,0 +1,10 @@
+.contact-foto {
+	width: 200px;
+	border-radius: 100%;
+}
+
+.contacts {
+	padding: 40px 0;
+	border: 5px solid #fff;
+	background: #f2f2f2;
+}

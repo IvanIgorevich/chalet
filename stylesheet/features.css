@@ -1,0 +1,36 @@
+.container {
+	max-width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container:after {
+	content: "";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.column-1-4 {
+	float: left;
+	width: 25%;
+}
+
+.features {
+	padding: 40px 0;
+	background: #f3f3f3;
+}
+
+.features-item {
+	padding: 10px;
+}
+
+@media (max-width: 960px) {
+	.column-1-4 {
+		float: left;
+		width: 50%;
+	}
+}
+
+
