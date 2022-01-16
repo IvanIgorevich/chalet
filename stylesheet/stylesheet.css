@@ -26,6 +26,20 @@ body {
 	line-height: 30px;
 }
 
+.text-small {
+	font-size: 14px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-lead {
+	color: black;
+	max-width: 70%;
+	margin: 0 15%;
+}
+
 .buffer-both {
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -43,11 +57,14 @@ body {
 	color: #fff;
 }
 
-@media (max-width: 480px) {
-	body {
-		font-size: 32px;
+@media (max-width: 680px) {
+	.text-lead {
+		max-width: none;
+		margin: 0;
 	}
+}
 
+@media (max-width: 480px) {
 	.column-1-4,
 	.column-1-2 {
 		float: none;

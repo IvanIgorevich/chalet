@@ -11,12 +11,8 @@
 	margin-top: 76px;
 }
 
-.text-center {
-	text-align: center;
-}
-
-.intro .text-lead {
-	color: black;
-	max-width: 70%;
-	margin: 0 15%;
+@media (max-width: 680px) {
+	.intro {
+		padding: 1em;
+	}
 }

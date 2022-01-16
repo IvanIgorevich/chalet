@@ -1,7 +1,7 @@
 .column-1-2 {
 	float: left;
 	width: 50%;
-}
+/}
 
 .reviews {
 	padding: 40px 0;
@@ -22,6 +22,8 @@
 	border: 5px solid #fff;
 	border-radius: 10px;
 	height: 150px;
+	width: 120px;
+	object-fit: cover;
 }
 
 .member-details {
@@ -32,4 +34,17 @@
 
 .member-details .title-small {
 	color: #ff2a68;
+}
+
+.box-4 {
+	display: grid;
+	gap: 5px;
+	height: auto;
+
+	/* Каждый контейнер имеет размер 200px на 200px */
+	grid-template-rows: auto auto;
+	grid-template-columns: auto auto;
+
+	/* ! */
+	justify-items : stretch;
 }
