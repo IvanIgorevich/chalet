@@ -1,50 +1,48 @@
 .column-1-2 {
-	float: left;
-	width: 50%;
-/}
+  float: left;
+  width: 50%;
+}
 
 .reviews {
-	padding: 40px 0;
-	background: #eee;
+  padding: 40px 0;
+  background: #eee;
 }
 
 .reviews-members {
-	padding-top: 40px;
+  padding-top: 40px;
 }
 
 .member-image {
-	display: inline-block;
-	float: left;
-	width: 160px;
+  display: inline-block;
+  float: left;
+  width: 160px;
 }
 
 .member-foto {
-	border: 5px solid #fff;
-	border-radius: 10px;
-	height: 150px;
-	width: 120px;
-	object-fit: cover;
+  border: 5px solid #fff;
+  border-radius: 10px;
+  height: 150px;
+  width: 120px;
+  object-fit: cover;
 }
 
 .member-details {
-	display: inline-block;
-	max-width: 270px;
-	margin-left: 20px;
+  display: inline-block;
+  max-width: 270px;
+  margin-left: 20px;
 }
 
 .member-details .title-small {
-	color: #ff2a68;
+  color: #ff2a68;
 }
 
 .box-4 {
-	display: grid;
-	gap: 5px;
-	height: auto;
+  display: grid;
+  gap: 5px;
+  height: auto;
 
-	/* Каждый контейнер имеет размер 200px на 200px */
-	grid-template-rows: auto auto;
-	grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
 
-	/* ! */
-	justify-items : stretch;
+  justify-items : stretch;
 }

@@ -1,18 +1,18 @@
 .intro {
-	background-color: rgba(0, 0, 0, 0);
-	background-image: linear-gradient(rgba(138, 186, 86, 1), rgba(138, 186, 86, 0.5) 1%);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: scroll, fixed;
-	background-position: 0 0%, center top;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(rgba(138, 186, 86, 1), rgba(138, 186, 86, 0.5) 1%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll, fixed;
+  background-position: 0 0%, center top;
 
-	color: #fff;
-	padding: 150px;
-	margin-top: 76px;
+  color: #fff;
+  padding: 150px;
+  margin-top: 76px;
 }
 
 @media (max-width: 680px) {
-	.intro {
-		padding: 1em;
-	}
+  .intro {
+    padding: 1em;
+  }
 }

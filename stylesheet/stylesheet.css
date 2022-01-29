@@ -1,83 +1,83 @@
 body {
-	font-family: "Trebuchet MS", sans-serif;
-	color: #444;
-	font-size: 16px;
+  font-family: "Trebuchet MS", sans-serif;
+  color: #444;
+  font-size: 16px;
 }
 
 .title-large {
-	font-size: 48px;
-	margin-bottom: 18px;
+  font-size: 48px;
+  margin-bottom: 18px;
 }
 
 .title-medium {
-	font-size: 36px;
-	font-weight: bold;
-	margin-bottom: 12px;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 12px;
 }
 
 .title-small {
-	font-size: 20px;
-	margin-bottom: 6px;
+  font-size: 20px;
+  margin-bottom: 6px;
 }
 
 .text {
-	font-size: 16px;
-	font-weight: normal;
-	line-height: 30px;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
 }
 
 .text-small {
-	font-size: 14px;
+  font-size: 14px;
 }
 
 .text-center {
-	text-align: center;
+  text-align: center;
 }
 
 .text-lead {
-	color: black;
-	max-width: 70%;
-	margin: 0 15%;
+  color: black;
+  max-width: 70%;
+  margin: 0 15%;
 }
 
 .buffer-both {
-	margin-top: 20px;
-	margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .button {
-	display: inline-block;
-	border-radius: 3px;
-	font-size: 16px;
-	text-decoration: none;
-	padding: 15px 30px;
-	text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.15);
-	font-weight: bold;
-	background: #8aba56;
-	color: #fff;
+  display: inline-block;
+  border-radius: 3px;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 15px 30px;
+  text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.15);
+  font-weight: bold;
+  background: #8aba56;
+  color: #fff;
 }
 
 @media (max-width: 800px) {
   .title-medium {
-		font-size: 24px;
-	}
+    font-size: 24px;
+  }
 }
 
 @media (max-width: 680px) {
-	.text-lead {
-		max-width: none;
-		margin: 0;
-	}
+  .text-lead {
+    max-width: none;
+    margin: 0;
+  }
 
-	.text {
-		font-size: 14px;
-	}
+  .text {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 480px) {
-	.column-1-4,
-	.column-1-2 {
-		float: none;
-		width: auto;
-	}
+  .column-1-4,
+  .column-1-2 {
+    float: none;
+    width: auto;
+  }
 }
